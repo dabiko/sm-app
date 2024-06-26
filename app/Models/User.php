@@ -10,6 +10,10 @@ use Illuminate\Notifications\Notifiable;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
+/**
+ * @property mixed $followers
+ * @property mixed $followings
+ */
 class User extends Authenticatable implements MustVerifyEmail
 {
     use HasFactory, Notifiable, HasSlug;

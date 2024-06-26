@@ -2,8 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\GroupResource;
+use App\Http\Resources\GroupUserResource;
+use App\Http\Resources\PostAttachmentResource;
+use App\Http\Resources\PostResource;
+use App\Http\Resources\UserResource;
 use App\Models\group;
 use App\Models\post;
+use App\Models\postAttachment;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
