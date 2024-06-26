@@ -2,14 +2,14 @@
 
 namespace Database\Factories;
 
-use App\Models\group_user;
+use App\Models\groupUser;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
 
-class group_userFactory extends Factory
+class groupUserFactory extends Factory
 {
-    protected $model = group_user::class;
+    protected $model = groupUser::class;
 
     public function definition(): array
     {
